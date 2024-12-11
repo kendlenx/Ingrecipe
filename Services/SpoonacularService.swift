@@ -1,7 +1,7 @@
 import Foundation
 
 class SpoonacularService {
-    private let apiKey = "22094369f5164fe3aeec9677602f791a" 
+    private let apiKey = "API_KEY" 
     private let baseURL = "https://api.spoonacular.com"
     
     func fetchRecipes(with filter: Filter) async -> [Recipe]? {
